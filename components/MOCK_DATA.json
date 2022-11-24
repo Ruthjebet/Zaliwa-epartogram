@@ -1,0 +1,43 @@
+[
+  {
+    "id": 1,
+    "name": "Klarrisa Connold",
+    "date_of_admission": "2009-12-07T11:02:45Z",
+    "time_of_admission": "11:02:45Z",
+    "phone": "2666978528",
+    "risk_level": "Low"
+  },
+  {
+    "id": 2,
+    "name": "Erasmus Gheeraert",
+    "date_of_admission": "2009-12-07T",
+    "time_of_admission": "11:02:45Z",
+    "phone": "2666978528",
+    "risk_level": "Moderate"
+    
+  },
+  {
+    "id": 3,
+    "name": "Beverlie Lighton",
+    "date_of_admission": "2009-12-07T",
+    "time_of_admission": "11:02:45Z",
+    "phone": "2666978528",
+    "risk_level": "Low"
+  },
+  {
+    "id": 4,
+    "name": "Jude Banat",
+    "date_of_admission": "2009-12-07T",
+    "time_of_admission": "11:02:45Z",
+    "phone": "2666978528",
+    "risk_level": "Moderate"
+  },
+  {
+    "id": 5,
+    "name": "Goddart Alben",
+    "date_of_admission": "2009-12-07T",
+    "time_of_admission": "11:02:45Z",
+    "phone": "2666978528",
+    "risk_level": "High"
+  }
+]
