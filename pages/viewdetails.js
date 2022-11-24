@@ -8,28 +8,28 @@ import LineChart from '../components/LineChart';
 export default function ViewPatientDetails() {
     return (
         <div>
-            <div className='flex flex-row p-4 items-center space-between'>
-                <div className='justify-center p-3'>
+            <div className='flex flex-col lg:flex-row p-4 lg:p-4 items-start lg:items-center space-between'>
+                <div className='justify-center p-0 lg:p-3'>
                     <h4>Patient: Karian Kahn</h4>
                     <p>PT123</p>
                     <p>Gravida 2</p>
                     <p>Para</p>
                 </div>
-                <div className='p-3'>
+                <div className='p-0 lg:p-3'>
                     <p>Admitted At</p>
                     <p>Mon, 22 Aug 2022 05:15 PM</p>
                 </div>
-                <div className='p-3'>
+                <div className='p-0 lg:p-3'>
                     <p>Email</p>
                     <p>some@exmple.com</p>
                 </div>
-                <div className='p-3'>
+                <div className='p-0 lg:p-3'>
                     <p>Contact</p>
                     <p>+91 98789 88879</p>
                 </div>
             </div>
-            <div className='flex flex-row p-4'>
-                <div className='w-1/6 '>
+            <div className='flex  flex-col lg:flex-row p-4'>
+                <div className='w-auto lg:w-1/6 grid grid-cols-2 lg:grid-cols-1'>
                     <h4 className='font-bold'>Epoch 3</h4>
                     <div className='w-fit p-2 flex flex-row items-center '>
                         <label
@@ -145,7 +145,7 @@ export default function ViewPatientDetails() {
                         </button>
                     </div>
                 </div>
-                <div className='w-5/6 grid grid-cols-3'>
+                <div className='w-5/6 grid grid-col-1 lg:grid-cols-3'>
                     <RowData/>
                     <BarChart/>
                     <LineChart/>
